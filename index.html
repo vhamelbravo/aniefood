@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport"  content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="normalize.css">
+<link rel="stylesheet" href="restaurant_style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet"> 
+<title> Anie's Food </title>
+</head>
+<body>
+<header>
+<nav>
+<a href="index.html">
+<img id="logo" src="anies_food_logo.png">
+</a>
+<ul id="nav">
+<li id="nav-sobre-nosotros"> <a href="#sobre-nosotros"> Sobre Nosotros </a> </li>
+<li id="nav-menu"> <a href="#menu">Pedido en Linea </a> </li>
+<li id="nav-ubicacion"> <a href="#ubicacion"> Ubicación </a> </li>
+</ul>
+</nav>
+<h1 id="slogan"> La Cocina Tradicional Chiapaneca <br> más cerca que nunca! </h1>
+<input id="buscar" type="text" placeholder="Buscar platillos">
+<button> <img id="search-button" src="search.png"> </button>
+<br>
+<span ><img id="facebook" class="social" src="facebook.png"> </span> 
+<span ><img id="twitter" class="social" src="twitter.png"> </span> 
+<span ><img id="instagram" class="social" src="instagram.png"> </span> 
+ </header>
+<section id="sobre-nosotros">
+<img id="sobre-nosotros-background" src="sobre_nosotros.jpg">
+<p class="pre-titles" id="sobre-nosotros-pre-title" > Sobre Nosotros </p>
+<h1 id="bienvenidos" > Bienvenidos a Anie's Food! </h1>
+<p id="paragraph-1" >Nos enorgullece ofrecer a nuestros clientes una auténtica experiencia culinaria de Chiapas. <br>
+Somos un equipo apasionado de cocineros y amantes de la comida que se dedica a crear <br>
+platos sabrosos y auténticos utilizando solo los ingredientes más frescos y de alta calidad. </p>
+<p id="paragraph-2"> Nuestro menú incluye una variedad de platillos tradicionales de Chiapas, como el famoso <br>
+cochinita pibil, los tamales de chipilín y los chiles rellenos de picadillo. También ofrecemos <br>
+deliciosos postres caseros, como el dulce de calabaza y el flan de coco. </p>
+<p id="paragraph-3"> En nuestro restaurante, nos esforzamos por brindar una experiencia auténtica de Chiapas en <br>
+un ambiente acogedor y relajante. Desde la decoración hasta la música y los aromas, todo ha <br>
+sido diseñado para transportarte a las calles de Chiapas y permitirte disfrutar de una <br>
+experiencia culinaria inolvidable. </p>
+<p id="paragraph-4"> Gracias por visitar nuestro restaurante. ¡Esperamos verte pronto y poder ofrecerte una <br>
+experiencia culinaria única de Chiapas! </p>
+<form action="#menu">
+<button id="menu-button"> Ver Menú </button>
+</form>
+</section>
+<section id="menu">
+<p  class="pre-titles"> Pida a Domicilio </p>
+<h1 id="especialidades"> Nuestras Especialidades </h1>
+<div id="menu-opciones">
+ <button id="platillos-link"> <p id="platillos-text-link"> Platillos </p> </button>  
+ <button id="postres-link" > <p id="postres-text-link"> Postres </p>  </button>  
+</div>
+ <div id="platillos-container">
+<img id="cochinita"  class="platillos" src="cochinita_pibli.jpg">
+<div class="platillos-text" id="cochinita-text" > Cochinita Pibli <br>
+<form action="order.html"> 
+<button class="platillos-button"> $12000 </button>
+</form> </div>
+
+<img id="tamales" class="platillos" src="tamales-de-chipilin.jpg">
+<div class="platillos-text" id="tamales-text" > Tamales de Chipilin <br>
+<form action="order.html"> 
+<button class="platillos-button"> $12000 </button>
+</form> </div>
+
+
+<img id="chiles" class="platillos" src="chiles_rellenos.jpg">
+<div class="platillos-text" id="chiles-text" > Chiles Rellenos <br>
+<form action="order.html"> 
+<button class="platillos-button"> $10000 </button>
+</form> </div>
+</div>
+
+<div id="postres-container"> 
+<img id="calabaza" class="postres" src="dulce_de_calabaza.jpg">
+<div class="postres-text" id="calabaza-text" > Dulce de Calabaza <br>
+<form action="order.html"> 
+<button class="postres-button"> $5000 </button>
+</form> </div>
+
+
+<img id="flan" class="postres" src="flan_de_coco.jpg">
+<div class="postres-text" id="flan-text" > Flan de Coco <br>
+<form action="order.html"> 
+<button class="postres-button"> $7000 </button>
+</form> </div>
+</div>
+</section>
+<section id="ubicacion">
+<p class="pre-titles"> Reservar Mesa </p>
+<h1> Horario de Apertura </h1>
+<img id="phone"  src="phone.png">
+<p id="call"> Llame Ya! </p>
+<p id="number"> +56 9 5617 7204 </p>
+<p id="mon-to-fri"> Lunes a Viernes </p>
+<p id="mon-to-fri-hour"> <b> 09:00 AM - 22:00 PM </b> </p>
+<p id="weekend"> Fines de Semana </p>
+<p id="weekend-hour"> <b> 11:00 AM - 22:00 PM </b> </p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.2393809747405!2d-70.54859436868286!3d-33.39091844039492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662ceb1558e55d9%3A0x493f5ae01b337379!2sGilberto%20Fuenzalida%20153%2C%207591592%20Las%20Condes%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1678305048789!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<footer>
+Anie's Food™ 2023
+<script src="restaurant_script.js"> </script>
+</footer>
+</body>
+ </html>

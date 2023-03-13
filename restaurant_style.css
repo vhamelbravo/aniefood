@@ -1,0 +1,425 @@
+/* Global */
+* {
+ box-sizing: border-box;
+ margin: 0;
+}
+.clearfix: after {
+content: ".";
+display: block;
+visibility: hidden;
+line-height: 0;
+height: 0;
+}
+.clear {
+clear: both;
+}
+html {
+font-size: 16px;
+}
+body {
+font-family: 'Luxurious Roman', cursive;
+}
+/*Header */
+header {
+background-image: url("header.jpg")
+}
+#nav a,
+#nav li {
+color: white;
+text-decoration: none;
+list-style-type: none;
+font-size: 1.5rem;
+float: right;
+margin-top: -80px;
+} 
+li {
+list-style-type: none;
+}
+#nav-sobre-nosotros {
+margin-right: 20%;
+}
+#nav-menu {
+margin-right: 10%;
+}
+#nav-ubicacion {
+margin-right: 3%;
+}
+#logo {
+height: 250px;
+} 
+#buscar-icono {
+display: inline;
+height: 40px;
+float: right;
+margin-top: -160px;
+}
+h1,
+p {
+margin-left: 5%;
+}
+h1 {
+font-size: 5rem;
+}
+#slogan {
+color:white;
+}
+input,
+button {
+display: inline;
+margin-left: 5%;
+}
+input {
+width: 45%;
+height: 50px;
+margin-top: -300px;
+}
+button,
+#search-button {
+height: 48px;
+background: none;
+border: 1px solid transparent;
+margin-left: -2%;
+}
+#search-button {
+position: absolute;
+margin-top: -27px;
+}
+.social {
+height: 50px;
+margin-left: 10%;
+}
+/* Sobre Nosotros */
+#sobre-nosotros-background {
+float: right;
+height: 514.8px;
+width: 30%;
+}
+.pre-titles {
+display: inline;
+font-size: 2rem;
+color: orange;
+font-weight: bold;
+}
+#menu-button {
+margin-left: 5%;
+margin-top: 10px;
+width: 10%;
+background: orange;
+color: white;
+border-radius: 12px;
+border-right: 1px solid white;
+}
+#menu-button:hover {
+background-color: #ffb361;
+}
+/* Pedido */
+#menu {
+background: #f2f6f7;
+height: 815px;
+}
+#menu-opciones button {
+color: black;
+border-bottom: 1px solid black;
+text-decoration: none;
+font-size: 2rem;
+}  
+ 
+#platillos-link{
+margin-left: 10%;
+}
+#postres-link {
+margin-left: 15%;
+}
+#platillos-text-link:hover,
+#postres-text-link:hover {
+color:orange 
+}
+.platillos,
+.postres
+{
+height: 400px;
+width: 20%;
+float: left;
+margin-top: 80px;
+margin-right: 60%;
+transition: .5s ease;
+opacity: 1;
+}
+.platillos:hover,
+.postres:hover {
+opacity: 0.3
+}
+#tamales {
+margin-top: -400px;
+margin-left: 40%;
+}
+#chiles {
+margin-top: -400px;
+margin-left: 65%;
+}
+#cochinita {
+margin-left: 15%;
+}
+.platillos-button,
+.postres-button {
+background: orange;
+border-radius: 12px; 
+color: white;
+}
+#calabaza {
+margin-top: -400px;
+margin-left: 30%;
+}
+#flan {
+margin-top: -400px;
+margin-left: 60%;
+}
+#cochinita-text {
+opacity: 0;
+margin-top: -250px;
+float: left;
+margin-left: 20%;
+font-size: 2rem;
+ 
+}
+#tamales-text {
+position: absolute;
+opacity: 0;
+margin-left: 43%;
+margin-top: 230px;
+}
+#chiles-text {
+position: absolute;
+opacity: 0;
+margin-left: 70%;
+margin-top: 230px;
+}
+#calabaza-text {
+position: absolute;
+opacity: 0;
+margin-left: 35%;
+margin-top: 230px;
+}
+#flan-text {
+position: absolute;
+opacity: 0;
+margin-left: 65%;
+margin-top: 230px;
+}
+#cochinita-text:hover,
+#tamales-text:hover,
+#chiles-text:hover,
+#calabaza-text:hover,
+#flan-text:hover
+{
+color: white;
+opacity: 1;
+font-size: 2rem;
+}
+/* Ubicacion */
+#phone {
+height: 50px;
+margin-left: 50%;
+}
+#call {
+font-size: 3.5rem;
+margin-left: 45%;
+}
+#number {
+font-size: 1.5rem;
+margin-left: 47%;
+}
+#mon-to-fri,
+#mon-to-fri-hour {
+margin-left: 40%;
+}
+#weekend,
+#weekend-hour {
+margin-left: 57%;
+}
+#weekend {
+margin-top: -40px;
+}
+iframe {
+margin-top: 50px;
+margin-left: 0;
+width: 100%;
+height: 500px;
+}
+/* Footer */
+footer {
+background: black;
+color: white;
+}
+/* Mobile */
+@media (max-width: 800px) {
+	/* Header */
+	header {
+		height: 500px;
+	}
+	#slogan,
+	#nav li,
+	#nav a {
+		visibility: hidden;
+	}
+	#buscar {
+		position: absolute;
+		margin-top: -600px;
+		width: 80%;
+	}
+	#search-button {
+		position: absolute;
+		margin-top: -620px;
+		margin-left: 70%;
+	}
+	.social {
+		position: absolute;
+		margin-top: -550px;
+		float: left;
+	}
+	#twitter {
+		position: absolute;
+		margin-left: 50%;
+	}
+	#facebook {
+		position: absolute;
+		margin-left: 30%;
+	}
+	/*Sobre Nosotros */
+	#bienvenidos {
+		font-size: 1.25rem;
+	}
+	#paragraph-4 {
+		visibility: hidden;
+	}
+	#sobre-nosotros-background {
+		z-index: -1;
+		height: 751.8px;
+	}
+	#menu-button {
+		width: 60%;
+	}
+	/* Pide a Domicilio */
+	#especialidades {
+		font-size: 2.5rem;
+	}
+	#cochinita-text,
+        #chiles-text,
+        #calabaza-text,
+        #flan-text	{
+	        opacity: 1;
+		font-size: 1.5rem;
+		font-weight: bold;
+	}
+	.platillos,
+	.postres {
+		 width: 35%;		 		 
+	}
+	.platillos-text,
+	.postres-text {
+		color: white;
+	}
+        #cochinita {
+                float: right;
+	}
+	#cochinita-text {
+                margin-left: 23px; 
+		inline-size: 15px;
+	}
+	#tamales,
+        #tamales-text	{
+		opacity: 0;
+	}
+	#calabaza {
+		float: right;
+	}
+	#calabaza-text {
+		margin-left: 50px;
+		inline-size: 15px;
+		margin-top: 200px;
+	}
+       /* Ubicación */
+        #call {
+        position: absolute;
+	margin-left: 70px;
+	margin-top: -60px;
+}
+        #phone {
+		position: absolute;
+		margin-top: 35px;
+		margin-left: 170px;
+	}
+	#number {
+		margin-left: 120px;
+	}
+	#mon-to-fri,
+	#mon-to-fri-hour,
+	#weekend,
+	#weekend-hour {
+		visibility: hidden;
+	}
+}
+@media (min-width: 500px) and  (max-width: 1000px) {
+	/* Header */
+	#nav-sobre-nosotros {
+		margin-right: 300px;
+	}
+	#nav-menu {
+		inline-size: 15px;
+		margin-right: 170px;
+	}
+	#search-button {
+		position: absolute;
+		margin-left: -35px;
+	}
+	/* Sobre Nosotros */
+	#sobre-nosotros-background {
+		z-index: -1;
+		height: 770px;
+	}
+	/* Domicilio */
+	.platillos,
+	.postres {
+		margin-top: 20px;
+	}
+	#cochinita-text,
+	#tamales-text,
+	#chiles-text,
+	#calabaza-text,
+	#flan-text {
+		opacity: 1;
+		font-size: 1.5rem;
+		font-weight: bold;
+	}
+	#cochinita-text {
+		margin-left: 150px;
+	}
+	#tamales-text {
+		margin-top: 170px;
+		inline-size: 15px;
+	}
+	#chiles-text {
+		margin-top: 170px;
+		margin-left: 600px;
+	}
+	#calabaza-text {
+		margin-top: 170px;
+		inline-size: 15px;
+	}
+	#flan-text {
+		margin-top: 170px;
+		margin-left: 570px;
+	}
+	/* Ubicacion */
+	#call {
+		margin-left: 350px;
+	}
+	#number {
+		margin-left: 400px;
+	}
+	#weekend,
+	#weekend-hour {
+		margin-bottom: 3px;
+		margin-left: 550px;
+	}
+}
